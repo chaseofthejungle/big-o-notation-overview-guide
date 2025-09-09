@@ -4,8 +4,8 @@ TODO: A brief introduction to Big O Notation and its indications for data struct
 
 #### Table of Contents
 
-1. Algorithmic Implications
-2. Supplemental Resources
+1. [Algorithmic Implications](#algorithmic)
+2. [Supplemental Resources](#supplemental)
 
 <hr />
 
@@ -14,3 +14,7 @@ TODO: A brief introduction to Big O Notation and its indications for data struct
 <hr />
 
 ## 2. <a name="supplemental">Supplemental Resources</a>
+
+* *[Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)*
+* *[Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)*
+* *[Intro to the Java Collections Framework](https://github.com/chaseofthejungle/intro-to-java-collections-framework)*
