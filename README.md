@@ -4,7 +4,8 @@
 
 1. [Algorithmic Implications](#algorithmic)
 2. [Code Examples](#examples)
-3. [Supplemental Resources](#supplemental)
+3. [Summary Table of Code Examples](#summary)
+4. [Supplemental Resources](#supplemental)
 
 <hr />
 
@@ -196,7 +197,7 @@ public class QuadraticTime {
 }
 ```
 
-**O(2ⁿ) - Exponential Time:** Algorithms with this complexity have very fast, exponential growth rates. They are commonly used in recursive algorithms, such as the popular solution of the naive Fibonacci sequence (due to it making two recursive calls for each 'n'... which develops a binary tree of calls that is composed of approximately 2ⁿ nodes):
+**O(2ⁿ) - Exponential Time:** Algorithms with this complexity have very fast, exponential growth rates. They are commonly used in recursive algorithms, such as the popular solution of the naive Fibonacci sequence (due to it making two recursive calls for each 'n'... which develops a binary tree of call branches, composed of approximately 2ⁿ nodes):
 
 ```
 public class ExponentialTime {
@@ -217,7 +218,20 @@ public class ExponentialTime {
 
 <hr />
 
-## 3. <a name="supplemental">Supplemental Resources</a>
+## 3. <a name="summary">Summary Table of Code Examples</a>
+
+| *Complexity* | *Algorithmic Example* | *Performance Explanation/Summary* |
+| :---: | :---: | :----: |
+| **O(1)** | Retrieving an element from an array. | Constant time, regardless of input size ('n'). |
+| **O(log n)** | Binary search. | Problem size reduces by a constant value (half, in binary search example) for each step. |
+| **O(n)** | Linear search, such as finding the maximum value in an integer array. | Grows linearly with input size ('n'). |
+| **O(n log n)** | Merge sort. | This complexity is the end result of combining linear and logarithmic complexities. |
+| **O(n²)** | Bubble sort. | The performance result of nested loops. |
+| **O(2ⁿ)** | Naive Fibonacci. | Exponential scaling, as a result of recursive branching. |
+
+<hr />
+
+## 4. <a name="supplemental">Supplemental Resources</a>
 
 * *[Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)*
 * *[Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)*
