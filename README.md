@@ -5,7 +5,8 @@
 1. [Algorithmic Implications](#algorithmic)
 2. [Code Examples](#examples)
 3. [Summary Table of Code Examples](#summary)
-4. [Supplemental Resources](#supplemental)
+4. [Chart of Big O](chart)
+5. [Supplemental Resources](#supplemental)
 
 <hr />
 
@@ -231,7 +232,13 @@ public class ExponentialTime {
 
 <hr />
 
-## 4. <a name="supplemental">Supplemental Resources</a>
+## 4. <a name="chart">Chart of Big O</a>
+
+(TODO)
+
+<hr />
+
+## 5. <a name="supplemental">Supplemental Resources</a>
 
 * *[Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)*
 * *[Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)*
